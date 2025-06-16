@@ -3,13 +3,22 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+  @font-face {
+  font-family: 'MyFont'; 
+  src: url(fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf) ;
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'MyFont', sans-serif;
 }
 
 

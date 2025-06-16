@@ -3,9 +3,16 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+  @font-face {
+  font-family: 'MyFont'; 
+  src: url(fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf) ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
   body {
-    font-family: Arial, sans-serif;
+   font-family: 'MyFont', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;

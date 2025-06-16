@@ -1,3 +1,14 @@
+  @font-face {
+  font-family: 'MyFont'; 
+  src: url(fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf) ;
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'MyFont', sans-serif;
+}
+
+
 body {
     background-image: url('images/background1.jpg');
     background-size: cover;

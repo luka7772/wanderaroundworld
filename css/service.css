@@ -1,9 +1,16 @@
 body {
 	margin: 0;
-	font-family: 'Segoe UI', sans-serif;
+	font-family: 'MyFont', sans-serif;
 	color: #333;
     background: linear-gradient(135deg, #e2e2e2bb 0%, #a8d7ec83 100%);
 }
+  @font-face {
+  font-family: 'MyFont'; 
+  src: url(fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf) ;
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 header {
    background: linear-gradient(295deg, #0300b9ef, #0245ff, rgba(2, 4, 129, 0.938));

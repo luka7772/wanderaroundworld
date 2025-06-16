@@ -5,6 +5,15 @@ body {
   background-size: 400% 400%; 
   animation: gradientMove 8s ease infinite;
 }
+  @font-face {
+  font-family: 'MyFont'; 
+  src: url(fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf) ;
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'MyFont', sans-serif;
+}
 
 
 @keyframes gradientMove {

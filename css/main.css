@@ -1,6 +1,16 @@
+  @font-face {
+  font-family: 'MyFont'; 
+  src: url(fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf) ;
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'MyFont', sans-serif;
+}
+
 body {
 	margin: 0;
-	font-family: 'Segoe UI', sans-serif; 
+	
 	background-image: url('background.jpg');
 	background-size: cover; 
 	background-repeat: no-repeat;

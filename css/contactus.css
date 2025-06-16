@@ -1,11 +1,19 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #ffffff 0%, #0040b8 100%);
   color: #333;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+  @font-face {
+  font-family: 'MyFont'; 
+  src: url(fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf) ;
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'MyFont', sans-serif;
 }
 
 .header {
@@ -29,7 +37,7 @@ body {
 
 .site-title a:hover {
   color: #f006f0;
-  
+
 }
 
 

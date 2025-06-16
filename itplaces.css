@@ -1,0 +1,154 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(195deg, #008C45, #ffffff, #CD212A); /* Italian flag colors */
+  background-size: 400% 400%; 
+  animation: gradientMove 8s ease infinite;
+}
+  @font-face {
+  font-family: 'MyFont'; 
+  src: url(fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf) ;
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'MyFont', sans-serif;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 24% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 20% 50%; }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.site-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.leftsection {
+  text-align: right;
+}
+
+.tittle {
+  color: #008C45; 
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: overline underline dashed #CD212A;
+  margin: auto;
+  margin-right: 100px;
+}
+
+.subtittle {
+  font-size: 24px;
+  color: #CD212A;
+}
+
+.rightsection {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.searchsection {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  height: 40px;
+  width: 250px;
+  padding: 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px;
+  background-color: #eee;
+}
+
+.search {
+  height: 40px;
+  width: 40px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.profilesection {
+  display: flex;
+  align-items: center;
+  background-color: #008c4570;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.profile-name {
+  font-size: 18px;
+  margin: 0 10px;
+  text-decoration: underline;
+  color: red;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.headbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+.nav-button {
+  background-color: rgba(0, 140, 69, 0.85);
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: white;
+  border: 2px solid rgba(0, 140, 69, 0.85);
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 140, 69, 0.3);
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.nav-button:hover,
+.nav-button:focus {
+  background-color: #CD212A;
+  border-color: #CD212A;
+  color: white;
+  box-shadow: 0 6px 12px rgba(205, 33, 42, 0.6);
+  outline: none;
+  cursor: pointer;
+}
+
+.places1 .place-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: darkgreen;
+  text-align: center;
+  background-color: lightyellow;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+.place-img {
+  height: 150px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}

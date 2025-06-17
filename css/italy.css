@@ -46,7 +46,7 @@ body {
 }
 
 .tittle {
-  color: #008C45;
+  color: #008C45; 
   font-size: 50px;
   font-weight: bold;
   text-decoration: overline underline dashed #CD212A;
@@ -88,13 +88,12 @@ body {
   border-left: none;
   border-radius: 0 20px 20px 0;
   cursor: pointer;
-  margin-left: 0;
 }
 
 .profilesection {
   display: flex;
   align-items: center;
-  background-color: rgba(16, 134, 0, 0.822);
+  background-color: #008c4570;
   border-radius: 10px;
   padding: 5px 10px;
 }
@@ -103,6 +102,7 @@ body {
   font-size: 18px;
   margin: 0 10px;
   text-decoration: underline;
+  color: red;
 }
 
 .profile {

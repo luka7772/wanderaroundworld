@@ -191,3 +191,43 @@ body {
   margin: 0;
 }
 
+ #likeContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #0206f1 0%, #01ffd5 100%);
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  width: fit-content;
+  font-family: Arial, sans-serif;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+   margin-left: 40px;
+}
+
+#likeContainer p {
+  margin: 0;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#likeButton {
+  padding: 8px 16px;
+  background-color: #076ef5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#likeButton:hover {
+  background-color: #0532fc;
+}
+
+#likeCount {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}

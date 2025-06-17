@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #ffffff 0%, #0040b8 100%);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+  @font-face {
+  font-family: 'MyFont'; 
+  src: url(fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf) ;
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'MyFont', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+ background: linear-gradient(135deg, #02f136 0%, #01ffd5 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+  
+}
+
+.site-title a {
+  font-size: 28px;
+  font-weight: 700;
+  color: #6a0dad;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.site-title a:hover {
+  color: #f006f0;
+
+}
+
+
+  .rightsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-left: 40px;
+    align-items: center;
+  }
+  
+ 
+  .searchsection {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .search-bar {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    width: 150px;
+    border-radius: 20px;
+  }
+  
+  .search {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+ 
+  .profilesection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-name {
+    font-size: 1rem;
+    margin: 0;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+/*
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px 0;
+
+}
+
+.nav-button {
+  position: relative;
+  text-decoration: none;
+  background-color: #7e57c2;
+  color: #f4f1de;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+}
+
+  .nav-button {
+    position: relative;
+    text-decoration: none;
+    background-color: #2600fcf8; 
+    color: #f4f1de; 
+    padding: 12px 28px;
+    border-radius: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid transparent;
+    transition: 
+      background-color 0.3s ease,
+      color 0.3s ease,
+      box-shadow 0.3s ease;
+    user-select: none;
+  }
+
+
+  .nav-button:hover,
+  .nav-button:focus {
+    background-color: #037ce0f1; 
+    color: #f4f1de;
+    box-shadow: 0 4px 15px #0004d4c4;
+    outline: none;
+    color: #ffbb00;
+  }
+
+ 
+  .nav-button::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 8px;
+    left: 50%;
+    background-color: #ffbb00; 
+    border-radius: 2px;
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+
+  .nav-button:hover::after,
+  .nav-button:focus::after {
+    width: 70%;
+    left: 15%;
+  }
+*/
+
+
+
+
+.container2 {
+  width: 90%;
+  max-width: 1100px;
+  margin: 60px auto 40px auto;
+  padding: 20px 0;
+  background-color: #22009b;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(35, 2, 224, 0.6);
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container p {
+  color: #f4f1de;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+ #likeContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #0206f1 0%, #01ffd5 100%);
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  width: fit-content;
+  font-family: Arial, sans-serif;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+   margin-left: 40px;
+}
+
+#likeContainer p {
+  margin: 0;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#likeButton {
+  padding: 8px 16px;
+  background-color: #076ef5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#likeButton:hover {
+  background-color: #0532fc;
+}
+
+#likeCount {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}

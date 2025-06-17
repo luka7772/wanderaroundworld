@@ -104,7 +104,20 @@ facebook:<a href="https://www.facebook.com/luka.jijavadze.387368" style="color: 
 </div>
 
 </div>
+<div id="likeContainer">
+  <p>If you like our website, leave a like:</p>
+  <button  id="likeButton" onclick="incrementLike()"> Like</button>
+  <span id="likeCount">0</span>
 
+  <script>
+    let likeCount = 0;
+
+    function incrementLike() {
+      likeCount++;
+      document.getElementById("likeCount").textContent = likeCount;
+    }
+  </script>
+</div>
 
   
     <div class="container2">
